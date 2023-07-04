@@ -22,7 +22,7 @@ const router = createRouter({
     {
       path: '/insert-buku',
       name: 'insert',
-      component: () => import('../components/Insert/buku.vue')
+      component: () => import('../components/Insert/Buku.vue')
     },
     {
       path: '/kategori',
