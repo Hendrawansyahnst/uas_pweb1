@@ -17,12 +17,12 @@ const router = createRouter({
     {
       path: '/buku',
       name: 'buku',
-      component: () => import('../views/Buku.vue')
+      component: () => import('../views/buku.vue')
     },
     {
       path: '/insert-buku',
       name: 'insert',
-      component: () => import('../components/Insert/Buku.vue')
+      component: () => import('../components/Insert/buku.vue')
     },
     {
       path: '/kategori',
