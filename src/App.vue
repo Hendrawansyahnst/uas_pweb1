@@ -19,7 +19,7 @@ import {RouterLink, RouterView} from 'vue-router'
 </template>
 
 <style scoped>
-@import 'components/font/font-navbar.css';
+@import 'components/font/Font-Navbar.css';
 
 * {
   margin: 0;
